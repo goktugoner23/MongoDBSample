@@ -29,7 +29,7 @@ public class Main {
         MongoDatabase db2 = client.getDatabase("myPals");
         MongoCollection<Document> col2 = db2.getCollection("palData");
         Document sample1 = new Document("_id", "1").append("Name", "Göktuğ").append("Surname", "Öner").append("Date of Birth", "23.08.1989");
-        Document sample2 = new Document("_id", "2").append("Name", "Hande Sıla").append("Surname", "Ergezer").append("Date of Birth", "03.09.1997");
+        Document sample2 = new Document("_id", "2").append("Name", "anothername").append("Surname", "anothersurname").append("Date of Birth", "01.01.1997");
         List<Document> documents = new ArrayList<>();
         documents.add(sample1);
         documents.add(sample2);
